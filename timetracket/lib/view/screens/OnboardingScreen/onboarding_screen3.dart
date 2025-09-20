@@ -43,12 +43,14 @@ class OnboardingScreen3 extends StatelessWidget {
 
                 SingleChildScrollView(
                   child: Row(
+
                     children: [
                       Expanded(
                         child: CustomButton(
                           onTap: () {},
                           fillColor: AppColors.buttonColors,
                           isBorder: false,
+                          borderRadius: 33,
                           width: 60,
                         ),
                       ),
@@ -59,6 +61,8 @@ class OnboardingScreen3 extends StatelessWidget {
                           fillColor: AppColors.buttonColors,
                           isBorder: true,
                           width: 60,
+                          borderRadius: 33,
+
                         ),
                       ),
 
